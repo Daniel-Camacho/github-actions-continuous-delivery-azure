@@ -1,9 +1,3 @@
-name: Configurar la aplicación
+name: Hola
 
 en : 
-    pull_request :
-      tipos : [etiquetado]
-
-trabajos :
-    compilación : se
-      ejecuta en : ubuntu-latest
