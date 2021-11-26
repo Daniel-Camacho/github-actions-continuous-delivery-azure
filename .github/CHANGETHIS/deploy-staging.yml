@@ -1,3 +1,9 @@
-name: Staging deployment
+name: Configurar la aplicación
 
-on: 
+en : 
+    pull_request :
+      tipos : [etiquetado]
+
+trabajos :
+    compilación : se
+      ejecuta en : ubuntu-latest
